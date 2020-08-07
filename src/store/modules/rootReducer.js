@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
+import favorites from './favorites/reducer';
+
 export default combineReducers({
-  /**
-   * Criar um reducer para remover warning do console
-   */
+  favorites,
 });
