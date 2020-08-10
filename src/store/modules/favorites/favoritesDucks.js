@@ -25,7 +25,7 @@ export const favoriteSuccessReducer = (state, { data }) => {
   return state.merge({
     loading: false,
     error: null,
-    data: [data],
+    data: [...state.data, data],
   });
 };
 

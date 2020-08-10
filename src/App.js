@@ -6,6 +6,7 @@ import './config/ReactotronConfig';
 import Routes from './routes';
 import store from './store';
 import Header from './pages/Header';
+import './App.css';
 
 function App() {
   return (

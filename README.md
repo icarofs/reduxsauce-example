@@ -1,12 +1,11 @@
  <h1>
  <br/>
-  🚀 Basic React template with javascript 🚀
+  🚀 ReduxSauce Example 🚀
   <br>
 </h1>
 
-## Configured tools
+## Sobre
 
-- EsLint
-- Prettier
-- EditorConfig
+- Aplicação simples para reforçar os estudos a respeito do Redux Sauce.
+
 

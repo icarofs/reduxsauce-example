@@ -12,6 +12,7 @@ export function* favorite({ repository }) {
       name: data.full_name,
       description: data.description,
       url: data.html_url,
+      avatar: data.owner.avatar_url,
     };
 
     yield put(FavoriteActions.favoriteSuccess(response));
